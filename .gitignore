@@ -1,0 +1,19 @@
+# Ignore the Terraform module and provider installation directory
+.terraform/
+
+# Ignore the Terraform module and provider installation directory
+.terraform/
+
+# Ignore terraform.tfstate files as they contain secrets and should be stored remotely
+*.tfstate
+*.tfstate.*
+
+# Ignore tfplan files
+*.tfplan
+
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+.crash
+*.tfvars
+*.zip
